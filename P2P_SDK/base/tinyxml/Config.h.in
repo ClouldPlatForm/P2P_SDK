@@ -1,0 +1,12 @@
+﻿#ifndef tinyxmlLib_Config_HHHH
+#define tinyxmlLib_Config_HHHH
+
+
+
+#define      MAR_VERSION         @MAR_VERSION@
+#define      MIN_VERSION         @MIN_VERSION@
+#define      RELEASE_VERSION     @RELEASE_VERSION@
+
+#cmakedefine         WIN
+#define              PRGNAME             "@PrgName@"
+#endif

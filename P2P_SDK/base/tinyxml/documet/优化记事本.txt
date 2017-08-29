@@ -1,0 +1,114 @@
+########################################################################################################
+########################################################################################################
+#######################################################################################################
+第一规则：空指针，野指针异常处理
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::XMLRun(string &strMem, void * pData, XML_TYPE XmlType)
+修改前后对比结果:程序更稳定
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::AddLeafNode(XMLNode* pElmParent, const char* pszNode, const char* pszText)
+修改前后对比结果:程序更稳定
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafNode(XMLNode* pElmParent, char* pszNode, char* pszText)
+修改前后对比结果:程序更稳定
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafElement(XMLNode* pParentNode, XMLElement* pElem, char* pszElemValue)
+修改前后对比结果:程序更稳定
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::AddLeafElement(XMLNode*pParentNode, const char* pSzElem, const char *pszText)
+修改前后对比结果:程序更稳定
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafAttribute(XMLElement* pElem, char *pszAttribute, char *pszAttText)
+修改前后对比结果:程序更稳定
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::RemoveAttribute(XMLElement *pElement, char *pAttributeName)
+修改前后对比结果:程序更稳定
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::InitErroInfoMethod(void* pXMLErroInfoMethod)
+修改前后对比结果:程序更稳定
+
+
+
+
+第二规则：补全日志
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::XMLRun(string &strMem, void * pData, XML_TYPE XmlType)
+修改前后对比结果:程序更容易定位
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::AddLeafNode(XMLNode* pElmParent, const char* pszNode, const char* pszText)
+修改前后对比结果:程序更容易定位
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafNode(XMLNode* pElmParent, char* pszNode, char* pszText)
+修改前后对比结果:程序更容易定位
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafElement(XMLNode* pParentNode, XMLElement* pElem, char* pszElemValue)
+修改前后对比结果:程序更容易定位
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::AddLeafElement(XMLNode*pParentNode, const char* pSzElem, const char *pszText)
+修改前后对比结果:程序更容易定位
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::GetLeafAttribute(XMLElement* pElem, char *pszAttribute, char *pszAttText)
+修改前后对比结果:程序更容易定位
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::RemoveAttribute(XMLElement *pElement, char *pAttributeName)
+修改前后对比结果:程序更容易定位
+
+
+修改时间：2016.3.7
+修改人: 聂志辉
+组件版本:0.0.1
+函数名: bool CXml::InitErroInfoMethod(void* pXMLErroInfoMethod)
+修改前后对比结果:程序更容易定位
+########################################################################################################
+########################################################################################################
+########################################################################################################

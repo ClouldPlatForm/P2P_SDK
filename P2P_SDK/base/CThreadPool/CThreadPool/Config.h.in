@@ -1,0 +1,11 @@
+﻿#ifndef ThreadPoolLib_Config_HHHH
+#define ThreadPoolLib_Config_HHHH
+
+
+#undef       WIN
+#define      MAR_VERSION         @MAR_VERSION@
+#define      MIN_VERSION         @MIN_VERSION@
+#define      RELEASE_VERSION     @RELEASE_VERSION@
+#define      PRGNAME             "@PrgName@"
+#undef      THREADPOOL_PRINTF
+#endif

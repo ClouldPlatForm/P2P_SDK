@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="common\protocol">
+      <UniqueIdentifier>{276fcbc4-a586-4c6a-9c9b-292507fbafbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="base\stund">
+      <UniqueIdentifier>{adae70ee-4d43-41ad-a734-95374869c5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="p2pServer">
+      <UniqueIdentifier>{3d6e662b-9bbd-4714-b028-99276c8a847c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="natcross">
+      <UniqueIdentifier>{cf0015dc-f31d-45f9-89f3-d5ebf702b9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hearbeat">
+      <UniqueIdentifier>{480f2cd3-c283-421b-9c9e-c33ecee16671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="relay">
+      <UniqueIdentifier>{1beea0a6-7376-434c-b20b-d283ce78fa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{66757114-a6e4-4bf0-9118-5842e6fe0905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\tinyxml2">
+      <UniqueIdentifier>{26ea2f78-0298-4b40-881f-1677d1b848ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\BaseXMLHelper.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\PthreadMutexLock.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\PThreadProcess.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TemplateEntityClass.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\stund\stun.cxx">
+      <Filter>base\stund</Filter>
+    </ClCompile>
+    <ClCompile Include="base\stund\udp.cxx">
+      <Filter>base\stund</Filter>
+    </ClCompile>
+    <ClCompile Include="cTest.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="base\tinyxml2\tinyxml2.cpp">
+      <Filter>base\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\tinyxml2\xmltest.cpp">
+      <Filter>base\tinyxml2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\BaseXMLHelper.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\PthreadMutexLock.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\PThreadProcess.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TemplateEntityClass.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\stund\stun.h">
+      <Filter>base\stund</Filter>
+    </ClInclude>
+    <ClInclude Include="base\stund\udp.h">
+      <Filter>base\stund</Filter>
+    </ClInclude>
+    <ClInclude Include="base\tinyxml2\tinyxml2.h">
+      <Filter>base\tinyxml2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

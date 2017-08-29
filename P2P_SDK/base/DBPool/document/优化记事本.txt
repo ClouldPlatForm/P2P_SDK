@@ -1,0 +1,58 @@
+########################################################################################################
+########################################################################################################
+#######################################################################################################
+rule4：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名:
+bool CDBPool::InitDBPool(CDBParam * pDBParam, DBTYPE DbType, int maxSize)
+bool CDBPool::InitConnection(int iInitialSize)
+CDatabaseFactory*CDBPool::GetConnection()
+void CDBPool::ReleaseConnection(CDatabaseFactory * pConn)
+void CDBPool::DestoryConnPool()
+修改前后对比结果:
+1.增强错误信息，调试信息，警告信息
+
+
+rule1：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名: 
+bool CDBPool::InitDBPool(CDBParam * pDBParam, DBTYPE DbType, int maxSize)
+bool CDBPool::InitConnection(int iInitialSize)
+CDatabaseFactory*CDBPool::GetConnection()
+void CDBPool::ReleaseConnection(CDatabaseFactory * pConn)
+void CDBPool::DestoryConnPool()
+修改前后对比结果:
+空指针，野指针异常处理
+
+rule6：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名:
+bool CDBPool::InitDBPool(CDBParam * pDBParam, DBTYPE DbType, int maxSize)
+bool CDBPool::InitConnection(int iInitialSize)
+CDatabaseFactory*CDBPool::GetConnection()
+void CDBPool::ReleaseConnection(CDatabaseFactory * pConn)
+void CDBPool::DestoryConnPool()
+修改前后对比结果:
+1.将之前互斥锁（有锁编程）改为了无所编程
+
+rule3：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名:
+bool CDBPool::InitDBPool(CDBParam * pDBParam, DBTYPE DbType, int maxSize)
+bool CDBPool::InitConnection(int iInitialSize)
+CDatabaseFactory*CDBPool::GetConnection()
+void CDBPool::ReleaseConnection(CDatabaseFactory * pConn)
+void CDBPool::DestoryConnPool()
+修改前后对比结果:
+增强组件,功能独立,减少嵌套依赖
+########################################################################################################
+########################################################################################################
+########################################################################################################

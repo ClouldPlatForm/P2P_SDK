@@ -1,0 +1,14 @@
+﻿#!/bin/bash
+if [ "$1" = "-d" ];then
+        echo "----------------------------cmake debug----------------------------"
+        cmake -D Flag=ON .        
+else      
+        echo "----------------------------cmake release----------------------------"
+        cmake .        
+fi
+make 
+rm -rf CMakeCache.txt
+rm -r CMakeFiles
+rm -rf cmake_install.cmake
+rm -rf Makefile
+rm -rf CTestTestfile.cmake

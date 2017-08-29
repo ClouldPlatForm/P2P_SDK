@@ -1,0 +1,42 @@
+########################################################################################################
+########################################################################################################
+#######################################################################################################
+rule4：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名:
+tp_thread_pool *creat_thread_pool(int min_num, int max_num)
+TPBOOL tp_init(tp_thread_pool *pthis)
+bool CThreadPoolForLinux::InsertWorkItem(WorkItemBase* pWorkItem)
+bool CThreadPoolForLinux::Create(const unsigned int nNumberOfThreads)
+修改前后对比结果:
+1.增强错误信息，调试信息，警告信息
+
+
+rule1：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名: 
+tp_thread_pool *creat_thread_pool(int min_num, int max_num)
+TPBOOL tp_init(tp_thread_pool *pthis)
+bool CThreadPoolForLinux::InsertWorkItem(WorkItemBase* pWorkItem)
+bool CThreadPoolForLinux::Create(const unsigned int nNumberOfThreads)
+修改前后对比结果:
+空指针，野指针异常处理
+
+rule10：
+修改时间：2016.03.01
+修改人: 肖文彬
+组件版本:0.00.001
+函数名:
+tp_thread_pool *creat_thread_pool(int min_num, int max_num)
+TPBOOL tp_init(tp_thread_pool *pthis)
+bool CThreadPoolForLinux::InsertWorkItem(WorkItemBase* pWorkItem)
+bool CThreadPoolForLinux::Create(const unsigned int nNumberOfThreads)
+修改前后对比结果:
+1.提倡调用安全函数,例如：strcpystrncpy,memcpy-memncpy
+########################################################################################################
+########################################################################################################
+########################################################################################################

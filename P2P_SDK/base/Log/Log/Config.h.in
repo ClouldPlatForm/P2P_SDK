@@ -1,0 +1,14 @@
+﻿#ifndef LogLib_Config_HHHH
+#define LogLib_Config_HHHH
+
+
+#undef       WIN
+#define      MAR_VERSION         @MAR_VERSION@
+#define      MIN_VERSION         @MIN_VERSION@
+#define      RELEASE_VERSION     @RELEASE_VERSION@
+#undef       LOGLib_Printf
+#define 	 LOG4CPP 
+#define		 LOCAL_SYSLOG
+#define		 LOG_FILE
+#define 	 REMOTE_SYSLOG
+#endif

@@ -1,0 +1,10 @@
+﻿#ifndef DBPoolLib_Config_HHHH
+#define DBPoolLib_Config_HHHH
+
+
+
+#define      MAR_VERSION         @MAR_VERSION@
+#define      MIN_VERSION         @MIN_VERSION@
+#define      RELEASE_VERSION     @RELEASE_VERSION@
+#define      DBPOOLNAME             "@PrgName@"
+#endif
